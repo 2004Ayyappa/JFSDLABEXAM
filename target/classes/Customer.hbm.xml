@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "EN" 
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.klef.jfsd.exam.Customer" table="customer">
+		<id name="id" column="id"></id>
+		<property name="name" column="sname"></property>
+		<property name="age" column="age"></property>
+		<property name="location" column="location"></property>
+		<property name="email" column="email"></property>
+		
+	</class>
+</hibernate-mapping>
